@@ -1,3 +1,9 @@
+# Disclaimer: This is a temporary fork from [Janis-ai/Janis-for-npm](https://github.com/Janis-ai/Janis-for-npm) <-- use this instead
+
+# This temporary fork adds upgrades waiting to be merged in the original repo, linked below.
+
+# [upgrade to latest dashbot version](https://github.com/Janis-ai/Janis-for-npm/pull/36)
+# [replace request by node-fetch](https://github.com/Janis-ai/Janis-for-npm/pull/35)
 # [Janis](https://www.Janis.ai) - Message Management
 ## For Chatbots built with Node.js
 
