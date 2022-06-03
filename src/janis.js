@@ -119,6 +119,7 @@ function janisBot(apikey, clientkey, config) {
             headers: data.headers,
             body: JSON.stringify(data.json),
         })
+        .then(response => response.json())
         .then(function (obj) {
             return obj;
         })
@@ -150,6 +151,7 @@ function janisBot(apikey, clientkey, config) {
             headers: data.headers,
             body: JSON.stringify(data.json),
         })
+        .then(response => response.json())
         .then(function (obj) {
             return obj;
         })
@@ -210,6 +212,7 @@ function janisBot(apikey, clientkey, config) {
             headers: data.headers,
             body: JSON.stringify(data.json),
         })
+        .then(response => response.json())
         .then(function (obj) {
             return obj;
         })
@@ -250,6 +253,7 @@ function janisBot(apikey, clientkey, config) {
             headers: data.headers,
             body: JSON.stringify(data.json),
         })
+        .then(response => response.json())
         .then(function (obj) {
             return obj;
         })
@@ -300,6 +304,7 @@ function janisBot(apikey, clientkey, config) {
             headers: data.headers,
             body: JSON.stringify(data.json),
           })
+        .then(response => response.json())
         .then(function (obj) {
             if (cb) {
                 cb(obj);
@@ -330,6 +335,7 @@ function janisBot(apikey, clientkey, config) {
             method: data.method,
             headers: data.headers,
         })
+        .then(response => response.json())
         .then(function (body) {
             var obj = JSON.parse(body);
             if (cb) {
@@ -370,6 +376,7 @@ function janisBot(apikey, clientkey, config) {
             headers: data.headers,
             body: JSON.stringify(data.json),
         })
+        .then(response => response.json())
         .then(function (obj) {
             if (cb) {
                 cb(obj);
@@ -423,6 +430,7 @@ function janisBot(apikey, clientkey, config) {
                 method: data.method,
                 body: JSON.stringify(data.json),
             })
+            .then(response => response.json())
             .then(function (obj) {
                 if (cb) {
                     cb(obj);
